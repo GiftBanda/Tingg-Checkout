@@ -28,15 +28,15 @@ const Checkout = async (req, res) => {
 }
 
 const Success = async (req, res) => {
-
+    console.log(req.body)
 }
 
 const Pending = async (req, res) => {
-
+    console.log(req.body)
 }
 
 const Failed = async(req, res) => {
-
+    console.log(req.body)
 }
 
 
